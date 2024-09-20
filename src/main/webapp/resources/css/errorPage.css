@@ -1,0 +1,41 @@
+.error-section {
+
+    height: 600px;
+    align-content: center;
+    flex: 1;
+}
+
+.error-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.error-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color : saddlebrown;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+.error-container .button {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 24px;
+    margin: 20px;
+    background-color: saddlebrown;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.error-container a:hover {
+    background-color: rgb(222, 201, 171);
+}

@@ -1,0 +1,159 @@
+body {
+    background-color : #f9f9f9;
+    margin : 0;
+    padding : 0;
+}
+
+.group-box {
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+    align-items : center;
+    margin-top : 5%;
+}
+
+.group-list-area {
+    min-height : 600px;
+    padding : 0 20px;
+}
+
+.group-create-area {
+    min-height : 600px;
+    padding : 0 20px;
+}
+
+.groupMember-invite-area {
+    min-height : 600px;
+    padding : 0 20px;
+}
+
+.groupMember-leave-area {
+    min-height : 600px;
+    padding : 0 20px;
+}
+
+h1 {
+    text-align : center;
+    margin-top : 20px;
+    color : saddlebrown;
+    font-weight : bold;
+}
+
+.content {
+    width : 80%;
+    margin : 0 auto;
+    padding : 20px;
+    border-radius : 8px;
+}
+
+.group-box table {
+    width : 100%;
+    height : 100%;
+    border-collapse : collapse;
+    margin-top : 20px;
+}
+
+.group-box table th, .group-box table td {
+    border : 1px solid #ddd;
+    padding : 12px;
+    text-align : center;
+}
+
+.group-box table th {
+    background-color : rgb(239, 226, 213);
+    color : saddlebrown;
+    font-weight : bold;
+}
+
+.group-table tr:nth-child(even) { background-color : #f9f9f9; }
+
+.group-table tr:hover { background-color : #f1f1f1; }
+
+.group-table td a {
+    color : saddlebrown;
+    text-decoration : none;
+    font-weight : bold;
+}
+
+.group-table td {
+    color : saddlebrown;
+    font-weight : bold;
+}
+
+.group-table td a:hover {
+    color : #ffea00;
+    text-decoration : none;
+    font-weight : bold;
+}
+
+.group-table td a:active {
+    color : orange;
+    text-decoration : none;
+    font-weight : bold;
+}
+
+.group-table td:first-child {
+    font-weight : bold;
+    color : saddlebrown;
+}
+
+.group-create-area input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
+
+.groupMember-invite-area input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
+
+.groupMember-leave-area input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: saddlebrown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(222, 201, 171);
+}
+
+.group-create-table td {
+    color : saddlebrown;
+    font-weight : bold;
+}
+
+.groupMember-table td {
+    color : saddlebrown;
+    font-weight : bold;
+}
+
+.groupMember-leave-table td {
+    color : saddlebrown;
+    font-weight : bold;
+}
+
+.error-message {
+    text-align: center;
+    color:red;
+}
+
+section {
+    height: 600px;
+    align-content: center;
+    flex: 1;
+}
+
+#group-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+section {
+    height: 600px;
+    align-content: center;
+    flex: 1;
+}
+.findIDResult-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 150px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.findIDResult-container h2 {
+    color : saddlebrown;
+    font-weight: bold;
+    text-align: center;
+}
+.IDResult {
+    margin-top: 30px;
+    height: 50px;
+    text-align: center;
+    padding: inherit;
+}
+.IDResult p {
+    display: inline;
+}
+.IDmessage {
+    color:blue;
+    text-shadow: #666666;
+}
+.button-container{
+    margin-top: 30px;
+    height: 50px;
+    text-align: center;
+    padding: inherit;
+}
+.button-container a {
+    margin-top: 30px;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: saddlebrown;
+    color: white;
+    font-style: revert;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container a:hover {
+    background-color: rgb(222, 201, 171);
+}
+.button-container a:link { color : white; text-decoration : none }
+.button-container a:visited { color : white; text-decoration : none }
+.button-container a:active { color : orange; text-decoration : none }
+.button-container a:hover { color : #ffea00; text-decoration : none }

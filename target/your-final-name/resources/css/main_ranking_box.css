@@ -1,0 +1,167 @@
+/*----------------------------랭킹 박스를 위해 추가----------------------------------------*/
+.score-ranking-area, .pick-ranking-area {
+    /*    height: 100%;
+        width: 100%;
+        min-height: 100vh;*/
+    max-width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: max-content;
+}
+
+/*----------------------------픽 박스----------------------------------------*/
+.ranking-box {
+    background-color: #fff8f2;
+    /*    width: 26%;
+        height: 43rem;
+        background-color: #ffffff;
+        -webkit-box-shadow: 0px 5px 15px 8px #e4e7fb;
+        box-shadow: 0px 5px 15px 8px #e4e7fb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0.5rem;*/
+    /*        width: 26%;
+        background-color: #fbfaff;
+        display: flex;
+        align-items: center;
+        justify-content: center;*/
+}
+
+.ranking-box .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+}
+
+.ranking-box h1 {
+    font-family: 'Rubik';
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #8a4513;;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+
+.ranking-box .leaderboard {
+    width: 100%;
+    position: relative;
+}
+
+.ranking-box table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    color: #843e09;
+    cursor: default;
+}
+
+.ranking-box tr {
+    transition: all 0.2s ease-in-out;
+    border-radius: 0.2rem;
+}
+
+.ranking-box tr:not(:first-child):hover {
+    background-color: #fff;
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 5px 15px 8px #d0c6bd;;
+    box-shadow: 0px 5px 15px 8px #d0c6bd;;
+}
+
+.ranking-box tr:nth-child(odd) {
+    background-color: #fff8f2;
+}
+
+.ranking-box tr:nth-child(1) {
+    color: #fff8f2;
+}
+
+.ranking-box td {
+    height: 5rem;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.4rem;
+    padding: 1rem 1.3rem;
+    position: relative;
+}
+
+.ranking-box .number {
+    width: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.ranking-box .name {
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.ranking-box tr:first-child .points {
+    padding: 1rem 0;
+    justify-content: end;
+}
+
+.ranking-box .points {
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ranking-box .points:first-child {
+    width: 10rem;
+}
+
+.ranking-box .gold-medal {
+    height: 3rem;
+    margin-left: 0.5rem;
+}
+
+.ranking-box .ribbon {
+    width: 110%;
+    height: 5.5rem;
+    top: -0.5rem;
+    background-color: #a55117;
+    position: absolute;
+    left: -1rem;
+    -webkit-box-shadow: 0px 15px 11px -6px #a7a7a7;
+    box-shadow: 0px 15px 11px -6px #a7a7a7;
+}
+
+.ranking-box .ribbon::before {
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem;
+    bottom: -0.8rem;
+    left: 0.35rem;
+    transform: rotate(45deg);
+    background-color: #a55117;
+    position: absolute;
+    z-index: -1;
+}
+
+.ranking-box .ribbon::after {
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem;
+    bottom: -0.8rem;
+    right: 0.35rem;
+    transform: rotate(45deg);
+    background-color: #ff9206;
+    position: absolute;
+    z-index: -1;
+}
+
+.ranking-box #buttons {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}

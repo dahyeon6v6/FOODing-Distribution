@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {
+    background : white;
+    margin : 0px;
+}
+
+nav {
+    color : saddlebrown;
+    background : white;
+    text-align : center;
+    height : 75px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.nav-div {
+/*    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;*/
+    color : saddlebrown;
+    background : rgb(222, 201, 171);
+    text-align : center;
+    width : 95%;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    border-radius : 20px;
+    font-size : 30px;
+/*    font-weight : bold;*/
+    position : relative;
+}
+
+.nav {
+    color : saddlebrown;
+    background : rgb(222, 201, 171);
+    text-align : center;
+    width : 100%;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    border-radius : 20px;
+    font-size : 30px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+}
+
+.nav:link { color : saddlebrown; text-decoration : none; }
+.nav:visited { color : saddlebrown; text-decoration : none; }
+.nav:active { color : orange; text-decoration : none; }
+.nav:hover { color : #ffea00; text-decoration : none; }
+
+ul li { list-style : none; }
+.nav a { text-decoration : none; }
+
+.snb {
+    display : flex;
+    position : absolute;
+    top : 100%;
+    left : 3%;
+    background-color : white;
+    border : 1px solid rgb(222, 201, 171);
+    width : 76%;
+    text-align : center;
+    border-radius : 0 0 20px 20px;
+    z-index : 1;
+    margin-top : 0;
+    justify-content : space-between;
+    align-items : flex-start;
+    padding : 0 5%;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.snb .submenu {
+    text-align : center;
+    margin : 20px;
+    vertical-align : top;
+    font-size : 20px;
+    font-weight : normal;
+    display : inline-block;
+    justify-content : center;
+    align-items : center;
+}
+
+.snb li a:link { color : #b67a47; text-decoration : none; }
+.snb li a:visited { color : #b67a47; text-decoration : none; }
+.snb li a:active { color : orange; text-decoration : none; }
+.snb li a:hover { color : #ffea00; text-decoration : none; }
+
+.nav-div:hover .snb {
+    display: flex;
+    justify-content : space-between;
+    opacity: 1;
+}
+
+.d-flex {
+    color : saddlebrown;
+    text-align : center;
+    width : 100%;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    border-radius : 20px;
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.nav-div .btn img {
+    width : 20px;
+    height : 20px;
+}
+
+.search-form {
+    width : 80%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}

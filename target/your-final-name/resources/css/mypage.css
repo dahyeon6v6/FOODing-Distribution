@@ -1,0 +1,66 @@
+.section-mypage {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    height: 600px;
+    align-content: center;
+    flex: 1;
+}
+
+@font-face {
+    font-family: 'TTLaundryGothicB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2{
+    font-family: 'TTLaundryGothicB';
+}
+
+.section-mypage h2 {
+    margin-bottom: 15px;
+    color : saddlebrown;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.profile-info {
+    margin-bottom: 20px;
+}
+
+.profile-info a {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 24px;
+    margin: 20px;
+    background-color: saddlebrown;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.myreviews-list a {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 24px;
+    margin: 20px;
+    background-color: saddlebrown;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.section-mypage a:hover {
+    background-color: rgb(222, 201, 171);
+}
+
+.section-mypage a:link { color : white; text-decoration : none }
+.section-mypage a:visited { color : white; text-decoration : none }
+.section-mypage a:active { color : orange; text-decoration : none }
+.section-mypage a:hover { color : #ffea00; text-decoration : none }

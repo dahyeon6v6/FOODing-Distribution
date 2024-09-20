@@ -1,0 +1,71 @@
+body {
+    background-color : #f9f9f9;
+    margin : 0;
+    padding : 0;
+}
+
+.inviteManage-box {
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+    align-items : center;
+    margin-top : 5%;
+}
+
+.inviteManage-list-area {
+    min-height : 600px;
+    padding : 0 20px;
+}
+
+h1 {
+    text-align : center;
+    margin-top : 20px;
+    color : saddlebrown;
+    font-weight : bold;
+}
+
+.content {
+    width : 80%;
+    margin : 0 auto;
+    padding : 20px;
+    border-radius : 8px;
+}
+
+.inviteManage-box table {
+    width : 100%;
+    height : 100%;
+    border-collapse : collapse;
+    margin-top : 20px;
+}
+
+.inviteManage-box table th, .inviteManage-box table td {
+    border : 1px solid #ddd;
+    padding : 12px;
+    text-align : center;
+}
+
+.inviteManage-box table th {
+    background-color : rgb(239, 226, 213);
+    color : saddlebrown;
+    font-weight : bold;
+}
+
+.inviteManage-table tr:nth-child(even) { background-color : #f9f9f9; }
+
+.inviteManage-table tr:hover { background-color : #f1f1f1; }
+
+.inviteManage-table td {
+    color : saddlebrown;
+    font-weight : bold;
+}
+
+.inviteManage-table td:first-child {
+    font-weight : bold;
+    color : saddlebrown;
+}
+
+section {
+    height: 600px;
+    align-content: center;
+    flex: 1;
+}

@@ -1,0 +1,74 @@
+.read-section {
+    height: 600px;
+    margin-top: 5%;
+    flex: 1;
+}
+
+.read-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto 0;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.read-container h1 {
+    text-align : center;
+    margin-top : 20px;
+    color : saddlebrown;
+    font-weight : bold;
+}
+.read-container table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.read-container table td:first-child {
+    background-color : rgb(239, 226, 213);
+    color : saddlebrown;
+    font-weight : bold;
+}
+.read-container table tbody tr:not(:first-child) td:first-child {
+    width: 100px;
+    text-align: center;
+}
+
+.read-container table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+.read-container table tr:last-child{
+    height: 200px;
+    max-height: max-content;
+}
+
+.read-container .button-container a {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: saddlebrown;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.read-container .button button:hover {
+    background-color: rgb(239, 226, 213);
+}
+.read-container .button-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.read-container .button-container .left-btn{
+    margin-right: auto;
+}
+.read-container .button-container .right-btn{
+    display: flex;
+    margin-right: 5px ;
+}

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+.board-section {
+    height: 600px;
+    margin-top: 5%;
+    flex: 1;
+}
+
+.board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto 0;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.board-container h1 {
+    text-align : center;
+    margin-top : 20px;
+    color : saddlebrown;
+    font-weight : bold;
+}
+.btnwrite-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btnwrite {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.btnwrite button {
+    padding: 10px 20px;
+    background-color: saddlebrown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btnwrite button:hover {
+    background-color: rgb(222, 201, 171);
+}
+
+.btnwrite button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.board-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.board-container table thead {
+    background-color : rgb(239, 226, 213);
+    color : saddlebrown;
+    font-weight : bold;
+}
+
+.board-container table td:first-child {
+    width: 100px;
+}
+.board-container table td:nth-child(2){
+    width: 450px;
+}
+.board-container table td:nth-child(3){
+    width: 150px;
+}
+.board-container table td:last-child{
+    width: 100px;
+}
+.board-container table thead td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    text-align: center;
+}
+
+.board-container table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.board-container table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.board-container table tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.board-container table tbody td:nth-child(2){
+    text-align: left;
+}
+
+.board-container table tbody td a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.board-container table tbody td a:hover {
+    text-decoration: underline;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pagination a, .pagination span {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    background-color: #bdbdbd;
+    color: #fff;
+}
+
+.pagination span {
+    background-color: #444444;
+    color: #fff;
+    border-color: #ddd;
+}
+
+
+/*--------------부트스트랩 스타일(버튼에 검은 테두리)이 자동 적용되는것 방지-------------------*/
+button {
+    outline: none;
+    border: none;
+}
+
+button:active,
+button:focus,
+button:hover {
+    border: none;
+    outline: none;
+}

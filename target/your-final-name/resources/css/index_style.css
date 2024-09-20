@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.section-div table tr{
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+}
+
+
+body {
+    background : rgb(255, 253, 220);
+    margin : 0px;
+}
+
+header {
+    color : saddlebrown;
+    background : rgb(255, 253, 220);
+    text-align : center;
+    height : 100px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.header-div {
+    color : saddlebrown;
+    background : rgb(255, 253, 220);
+    text-align : center;
+    width : 100%;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-size : 70px;
+    font-family: 'yg-jalnan';
+}
+
+.header1 { color : #ffea00; }
+.header2 { color : saddlebrown; }
+
+nav {
+    color : saddlebrown;
+    background : rgb(255, 253, 220);
+    text-align : center;
+    height : 500px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.nav-div {
+    color : saddlebrown;
+    background : rgb(255, 253, 220);
+    text-align : center;
+    width : 100%;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+section {
+    color : saddlebrown;
+    background : rgb(255, 253, 220);
+    text-align : center;
+    height : 200px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.section-div {
+    color : saddlebrown;
+    background : rgb(255, 253, 220);
+    text-align : center;
+    width : 100%;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-size : 50px;
+    font-weight : bold;
+}
+
+footer {
+    color : saddlebrown;
+    background : rgb(255, 253, 220);
+    text-align : center;
+    height : 100px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.footer-div {
+    color : saddlebrown;
+    background : rgb(255, 253, 220);
+    text-align : center;
+    width : 100%;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-size : 30px;
+    font-weight : bold;
+}
+
+.head:link { color : saddlebrown; text-decoration : none }
+.head:visited { color : saddlebrown; text-decoration : none }
+.head:active { color : orange; text-decoration : none }
+.head:hover { color : #ffea00; text-decoration : none }
