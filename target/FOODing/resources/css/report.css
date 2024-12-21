@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: left;
+    color: #333;
+    background-color: cornsilk;
+    padding: 5px;
+}
+
+.form-group {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.report-container h2 {
+    text-align: center;
+}
+
+.report-type {
+    text-align: left;
+    padding: 20px;
+}
+
+.submit-button {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #a0522d;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+.submit-button:hover {
+    background-color: #8b4513;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.report-type input[type="radio"] {
+    margin-bottom: 13px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.report-type label {
+    font-size: 1.1em;
+    color: #555;
+}

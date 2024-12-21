@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+section {
+    height: 600px;
+    align-content: center;
+    flex: 1;
+}
+.changePass-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 150px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.changePass-container h2 {
+    color : saddlebrown;
+    font-weight: bold;
+    text-align: center;
+}
+.changePass-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+.changePass-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.changePass-container .button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: saddlebrown;
+    color: white;
+    font-style: revert;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
